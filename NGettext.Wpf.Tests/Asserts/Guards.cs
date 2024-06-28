@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Xunit
+﻿namespace Xunit
 {
 #if XUNIT_VISIBILITY_INTERNAL 
     internal

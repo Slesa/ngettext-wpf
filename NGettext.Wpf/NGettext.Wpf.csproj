@@ -1,16 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0-windows</TargetFramework>
+        <TargetFrameworks>net6.0-windows;net7.0-windows;net48</TargetFrameworks>
         <UseWPF>true</UseWPF>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <Nullable>disable</Nullable>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <LangVersion>10</LangVersion>
+        <UserSecretsId>9e5bb478-1178-41a2-9d31-c3773cd75838</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+      <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.122" />
       <PackageReference Include="NGettext" Version="0.6.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="System.Web" Condition="'$(TargetFramework)' == 'net48'" />
     </ItemGroup>
 
 </Project>

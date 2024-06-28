@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2024-06-28
+- Provide diffrent .NET versions
+
 ## [1.2.6-alpha] - 2019-08-16
 ### Added
  - XGettext-Xaml annotated locations match the given parameter instead of just the filename.  This is useful when making PoEdit friendly .po files where the locations must be relative.  Thanks to @PGPoulsen for the PR.

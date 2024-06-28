@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace NGettext.Wpf.EnumTranslation
+﻿namespace NGettext.Wpf.EnumTranslation
 {
     public class EnumMsgIdAttribute : Attribute
     {

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using Xunit.Sdk;
+﻿using Xunit.Sdk;
 
 namespace Xunit
 {

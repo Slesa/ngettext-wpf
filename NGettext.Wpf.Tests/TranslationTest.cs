@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Globalization;
-using Newtonsoft.Json;
-using NSubstitute;
+﻿using NSubstitute;
 using Xunit;
 
 namespace NGettext.Wpf.Tests

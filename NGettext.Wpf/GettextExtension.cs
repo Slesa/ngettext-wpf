@@ -1,11 +1,6 @@
-﻿using System;
-using System.ComponentModel;
-using System.Linq;
-using System.Reflection;
+﻿using System.ComponentModel;
 using System.Windows;
-using System.Windows.Data;
 using System.Windows.Markup;
-using NGettext.Wpf.Common;
 
 namespace NGettext.Wpf
 {
